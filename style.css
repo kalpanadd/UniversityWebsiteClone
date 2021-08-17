@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
     
 }
 
@@ -88,4 +89,9 @@ flex-direction: column;
     font-size:small;
     font-weight: bold;
     letter-spacing: 1px;
+}
+.home_video{
+    width: 100vw;
+    height: 50vh;
+    background-color: violet;
 }
