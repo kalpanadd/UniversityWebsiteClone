@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    height: 19vh;
+}
+
+.navbar_left{
+    flex: 0.3;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding-left: 3rem;
+    cursor: pointer;
+    
+}
+.navbar_right{
+display: flex;
+flex: 0.7;
+flex-direction: column;
+
+}
+.navbar_top{
+    display: flex;
+    width: 70vw;
+    background-color:rgb(184, 22, 54,1.2);
+    align-items: center;
+    color: white;
+    border-radius: 0rem 0rem 0rem 10px;
+
+}
+.navbar_top > div{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 13px;
+    margin-right: 1rem;
+}
+
+.navbar_top > i{
+    margin-left: 22rem;
+    color: white;
+    cursor: pointer;
+   
+}
+.resources{
+    background-color: rgb(152, 35, 58);
+    
+}
+.navbar_bottom{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    color: black;
+}
+.navbar_bottom > div{
+    font-size:1.1rem;
+    font-weight:bold;
+    margin-right: 3rem;
+    padding-right: 1rem;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+.navbar_bottom > button{
+    border: none;
+    border-radius: 2rem;
+    background-color:rgb(184, 22, 54,1.2);
+    color: white;
+    padding: 10px 2rem;
+    font-size: medium;
+    margin-left: 5rem;
+    cursor: pointer;
+
+    
+}
