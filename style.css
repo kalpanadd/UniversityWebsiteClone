@@ -76,7 +76,16 @@ flex-direction: column;
     padding: 10px 2rem;
     font-size: medium;
     margin-left: 5rem;
-    cursor: pointer;
-
-    
+    cursor: pointer;    
+}
+.campus_info{
+    height: 14vh;
+    background-color:rgb(184, 22, 54,1.2) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:small;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
